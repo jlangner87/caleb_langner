@@ -1,3 +1,10 @@
 * {
-  background-color: #9d9ca3;
+  background-color: #e05c1c;
+}
+
+.headshot {
+  width: 400px;
+  background-color: white;
+  border: 2px solid black;
+  border-top-right-radius: 77%;
 }
