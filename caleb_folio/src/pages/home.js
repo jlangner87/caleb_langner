@@ -6,12 +6,12 @@ const Home = () => {
       <div className="content_block_home">
         <img className="headshot" src={headshot} />
         <div>
-          <h1 className="content_header_home">Welcome,</h1>
+          <h1 className="content_header_home">Hello & welcome,</h1>
           <p className="content_text_home">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius
-            vehicula tellus, sit amet condimentum nunc suscipit in. Cras varius
-            id ante vitae dignissim. Aenean convallis eget enim maximus
-            imperdiet. Donec gravida dui in consequat congue.
+            My name is Caleb Langner. (sample brand statement)I am a passionate
+            educator, and for six years, I have been supporting children as they
+            discover and explore new ideas in a safe, welcoming classroom
+            environment.
           </p>
           <div className="signoff">
             <h1 className="sincere">Sincerely,</h1>

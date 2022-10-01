@@ -1,50 +1,42 @@
+import ontv from '../assets/ontv.png'
+import reading from '../assets/read.png'
+import dwnld from '../assets/cloud-download-alt.png'
+
 const Scrapbook = () => {
   return (
     <div className="scrapbook">
       <h1 className="page_header">Scrapbook</h1>
-      <div className="content_block">
-        <h1 className="content_header">This is scrapbook content</h1>
+      <div className="scrap_block">
+        <img className="scrap" src={ontv} />
+      </div>
+      <div className="scrap_block2">
+        <h1 className="content_header">Essays</h1>
         <p className="content_text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius
-          vehicula tellus, sit amet condimentum nunc suscipit in. Cras varius id
-          ante vitae dignissim. Aenean convallis eget enim maximus imperdiet.
-          Donec gravida dui in consequat congue. Maecenas sit amet egestas diam,
-          a aliquet sem. Praesent et egestas augue. Sed eget enim massa.
-          Curabitur fringilla, ligula ac iaculis porttitor, dui turpis cursus
-          tellus, at aliquam urna dui id dui. Mauris aliquet arcu velit. Donec
-          dictum molestie risus vel ornare. Pellentesque vel lectus magna. Nulla
-          velit orci, dictum at suscipit sed, auctor nec neque. Ut quis molestie
-          felis, ac auctor leo.
+          <img className="big_icons" src={dwnld} /> Why I Want To Be A Teacher
+        </p>
+        <p className="content_text">
+          <img className="big_icons" src={dwnld} /> Learning Theory
+        </p>
+        <p className="content_text">
+          <img className="big_icons" src={dwnld} /> Idea Essay
         </p>
       </div>
-      <div className="content_block2">
-        <h1 className="content_header">Some more scrapbook content</h1>
-        <p className="content_text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius
-          vehicula tellus, sit amet condimentum nunc suscipit in. Cras varius id
-          ante vitae dignissim. Aenean convallis eget enim maximus imperdiet.
-          Donec gravida dui in consequat congue. Maecenas sit amet egestas diam,
-          a aliquet sem. Praesent et egestas augue. Sed eget enim massa.
-          Curabitur fringilla, ligula ac iaculis porttitor, dui turpis cursus
-          tellus, at aliquam urna dui id dui. Mauris aliquet arcu velit. Donec
-          dictum molestie risus vel ornare. Pellentesque vel lectus magna. Nulla
-          velit orci, dictum at suscipit sed, auctor nec neque. Ut quis molestie
-          felis, ac auctor leo.
-        </p>
+      <div className="scrap_block">
+        <img className="scrap" src={reading} />
       </div>
-      <div className="content_block2">
-        <h1 className="content_header">Some more scrapbook content</h1>
+      <div className="scrap_block2">
+        <h1 className="content_header">Lesson Plans & Samples</h1>
         <p className="content_text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius
-          vehicula tellus, sit amet condimentum nunc suscipit in. Cras varius id
-          ante vitae dignissim. Aenean convallis eget enim maximus imperdiet.
-          Donec gravida dui in consequat congue. Maecenas sit amet egestas diam,
-          a aliquet sem. Praesent et egestas augue. Sed eget enim massa.
-          Curabitur fringilla, ligula ac iaculis porttitor, dui turpis cursus
-          tellus, at aliquam urna dui id dui. Mauris aliquet arcu velit. Donec
-          dictum molestie risus vel ornare. Pellentesque vel lectus magna. Nulla
-          velit orci, dictum at suscipit sed, auctor nec neque. Ut quis molestie
-          felis, ac auctor leo.
+          <img className="big_icons" src={dwnld} /> Math Lesson Plan
+        </p>
+        <p className="content_text">
+          <img className="big_icons" src={dwnld} /> Social Studies Lesson
+        </p>
+        <p className="content_text">
+          <img className="big_icons" src={dwnld} /> Small Group Reading
+        </p>
+        <p className="content_text">
+          <img className="big_icons" src={dwnld} /> Teaching Work Sample
         </p>
       </div>
     </div>

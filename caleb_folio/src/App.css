@@ -5,20 +5,22 @@
 
 a {
   text-decoration: none;
+  color: #E0EFDE;
 }
 a:visited {
   color: #E0EFDE;
 }
 
 body {
-  background-color: #0373AA;
+  /* background-color: #0373AA; */
+  background-color: #e05c1c;
   text-align: center;
 }
 
 .header {
   text-align: center;
-  /* background-color: #E0EFDE; */
-  background-color: #e05c1c;
+  background-color: #E0EFDE;
+  /* background-color: #e05c1c; */
 }
 
 .header_container {
@@ -26,15 +28,15 @@ body {
 }
 
 .headshot {
-  width: 400px;
+  width: 500px;
   background-color: transparent;
 
 }
 
-.name {
+.header_name {
   color: #2E2D2F;
   /* color: #E0EFDE; */
-  font-size: 200px;
+  font-size: 120px;
   text-transform: uppercase;
   letter-spacing: 20px;
   font-family: 'Oswald', sans-serif;
@@ -44,19 +46,18 @@ body {
 .header_text {
   color: #2E2D2F;
   /* color: #E0EFDE; */
-  font-size: 80px;
+  font-size: 40px;
   text-transform: lowercase;
   letter-spacing: 18px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
   margin-top: -25px;
 
 }
 
 .nav {
   background-color: #2E2D2F;
-  color: #E0EFDE;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -64,6 +65,10 @@ body {
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   letter-spacing: 3px;
+}
+
+.icons {
+  width: 20px
 }
 
 .nav_links {
@@ -123,7 +128,8 @@ body {
 }
 
 .content_header {
-  color: #e05c1c;
+  /* color: #e05c1c; */
+  color: #0373AA;
   font-size: 48px;
   padding: 10px;
   font-family: 'Oswald', sans-serif;
@@ -137,23 +143,78 @@ body {
   line-height: 150%;
   padding: 0px 35px 35px 35px;
   font-family: 'Montserrat', sans-serif;
-  /* font-family: 'Oswald', sans-serif; */
+}
+
+.contact_logo {
+  color: #2E2D2F;
+  font-size: 24px;
+  line-height: 150%;
+  padding: 0px 35px 35px 35px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.scrap_block {
+  background-color: #E0EFDE;
+  width: 40%;
+  float: left;
+  text-align: left;
+  margin-left: 40px;
+  box-shadow: 10px 10px 15px -7px rgba(0,0,0,0.65);
+}
+
+.scrap_block2 {
+  background-color: #E0EFDE;
+  width: 60%;
+  float: right;
+  text-align: left;
+  margin-right: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  box-shadow: 10px 10px 15px -7px rgba(0,0,0,0.65);
+}
+
+.scrap {
+  width: 90%
+}
+
+.connect_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.contact_container {
+  margin-top: 20px;
+}
+
+.big_icons {
+  height: 30px
+}
+
+.content_block_contact {
+  background-color: #E0EFDE;
+  width: 45%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: left;
+  box-shadow: 10px 10px 15px -7px rgba(0,0,0,0.65);
 }
 
 .content_header_home {
-  color: #e05c1c;
+  /* color: #e05c1c; */
+  color: #0373AA;
   font-size: 48px;
   padding: 10px;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   letter-spacing: 5px;
+  margin-bottom: 10px;
 }
 
 .content_text_home {
   color: #2E2D2F;
   font-size: 24px;
   line-height: 150%;
-  padding: 0px 35px 35px 35px;
+  padding: 0px 35px 35px 55px;
   font-family: 'Montserrat', sans-serif;
   width: 80%;
 }
@@ -165,8 +226,9 @@ body {
   margin-right: 150px;
 }
 .sincere {
-  color: #e05c1c;
-  font-size: 24px;
+  /* color: #e05c1c; */
+  color: #0373AA;
+  font-size: 38px;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -175,11 +237,55 @@ body {
 
 }
 .name {
-  color: #e05c1c;
-  font-size: 24px;
+  /* color: #e05c1c; */
+  color: #0373AA;
+  font-size: 38px;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   letter-spacing: 5px;
   float: right;
+}
+
+
+
+@media only screen 
+  and (max-device-width: 812px) 
+ {
+    
+    .header_name {
+      font-size: 100px;
+    }
+    .header_text {
+      font-size: 40px;
+      color: #E0EFDE;
+    }
+    .nav {
+      font-size: 40px;
+    }
+
+    .headshot {
+      width: 400px;
+      margin-bottom: 0px;
+    }
+
+    .content_block {
+      width: 100%;
+    }
+
+    .content_block2 {
+      width: 100%;
+    }
+
+    .content_block_home {
+      width: 100%;
+    }
+
+    .content_text_home {
+      padding-right: 0;
+    }
+    
+    .page_header {
+      font-size: 68px;
+    }
 
 }
