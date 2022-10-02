@@ -12,7 +12,6 @@ a:visited {
 }
 
 body {
-  /* background-color: #0373AA; */
   background-color: #e05c1c;
   text-align: center;
 }
@@ -20,7 +19,6 @@ body {
 .header {
   text-align: center;
   background-color: #E0EFDE;
-  /* background-color: #e05c1c; */
 }
 
 .header_container {
@@ -28,14 +26,13 @@ body {
 }
 
 .headshot {
-  width: 500px;
+  width: 450px;
   background-color: transparent;
 
 }
 
 .header_name {
   color: #2E2D2F;
-  /* color: #E0EFDE; */
   font-size: 120px;
   text-transform: uppercase;
   letter-spacing: 20px;
@@ -45,7 +42,6 @@ body {
 
 .header_text {
   color: #2E2D2F;
-  /* color: #E0EFDE; */
   font-size: 40px;
   text-transform: lowercase;
   letter-spacing: 18px;
@@ -61,7 +57,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  font-size: 24px;
+  font-size: 18px;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   letter-spacing: 3px;
@@ -79,7 +75,7 @@ body {
   padding-right: 20px;
 }
 .nav_links:hover {
-  background-color: #0373AA;
+  background-color: #e05c1c;
 }
 
 .page_header {
@@ -94,20 +90,22 @@ body {
 
 .content_block {
   background-color: #E0EFDE;
-  width: 80%;
+  width: 75%;
   float: left;
   text-align: left;
   box-shadow: 10px 10px 15px -7px rgba(0,0,0,0.65);
+  margin-left: 15px;
 }
 
 .content_block2 {
   background-color: #E0EFDE;
-  width: 80%;
+  width: 75%;
   margin-top: 40px;
   margin-bottom: 40px;
   float: right;
   text-align: left;
   box-shadow: 10px 10px 15px -7px rgba(0,0,0,0.65);
+  margin-right: 15px;
 }
 
 .content_block_home {
@@ -128,9 +126,8 @@ body {
 }
 
 .content_header {
-  /* color: #e05c1c; */
   color: #0373AA;
-  font-size: 48px;
+  font-size: 40px;
   padding: 10px;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
@@ -139,7 +136,7 @@ body {
 
 .content_text {
   color: #2E2D2F;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 150%;
   padding: 0px 35px 35px 35px;
   font-family: 'Montserrat', sans-serif;
@@ -147,10 +144,17 @@ body {
 
 .contact_logo {
   color: #2E2D2F;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 150%;
   padding: 0px 35px 35px 35px;
   font-family: 'Montserrat', sans-serif;
+}
+
+.school_logo {
+  height: 90px;
+  float: right;
+  padding-right: 10px;
+  margin-top: -92px;
 }
 
 .scrap_block {
@@ -173,8 +177,46 @@ body {
   box-shadow: 10px 10px 15px -7px rgba(0,0,0,0.65);
 }
 
+.excerpt_container {
+  background-color: #eff8ed;
+  width: 85%;
+  border: 1px solid #2E2D2F;
+  border-radius: 15px;
+  margin: 20px;
+  box-shadow: 10px 10px 15px -7px rgba(0,0,0,0.65);
+  padding: 5px
+
+}
+
 .scrap {
   width: 90%
+}
+
+.subheader {
+  color: #2E2D2F;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 150%;
+  padding: 0px 35px 10px 35px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.snippet {
+  color: #2E2D2F;
+  width: 80%;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 150%;
+  padding-left: 35px;
+  margin-left: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.dwnld_icon {
+  height: 50px;
+  float: right;
+  padding-right: 10px;
+  margin-top: -50px;
 }
 
 .connect_container {
@@ -200,9 +242,8 @@ body {
 }
 
 .content_header_home {
-  /* color: #e05c1c; */
   color: #0373AA;
-  font-size: 48px;
+  font-size: 40px;
   padding: 10px;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
@@ -212,7 +253,7 @@ body {
 
 .content_text_home {
   color: #2E2D2F;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 150%;
   padding: 0px 35px 35px 55px;
   font-family: 'Montserrat', sans-serif;
@@ -226,18 +267,15 @@ body {
   margin-right: 150px;
 }
 .sincere {
-  /* color: #e05c1c; */
   color: #0373AA;
   font-size: 38px;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   letter-spacing: 5px;
   float: right;
-
 
 }
 .name {
-  /* color: #e05c1c; */
   color: #0373AA;
   font-size: 38px;
   font-family: 'Oswald', sans-serif;
@@ -246,6 +284,23 @@ body {
   float: right;
 }
 
+.footer {
+  background-color: #2E2D2F;
+  color: #E0EFDE;
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dev_logo {
+  width: 200px;
+  height: auto;
+}
 
 
 @media only screen 

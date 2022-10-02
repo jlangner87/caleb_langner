@@ -6,6 +6,7 @@ import About from './pages/about'
 import Scrapbook from './pages/scrapbook'
 import Resume from './pages/resume'
 import Connect from './pages/connect'
+import Footer from './components/footer'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/resume" element={<Resume />} />
         <Route path="/connect" element={<Connect />} />
       </Routes>
+      <Footer />
     </div>
   )
 }
