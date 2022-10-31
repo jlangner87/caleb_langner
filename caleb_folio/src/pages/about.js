@@ -20,43 +20,47 @@ const About = () => {
           my goals.
         </p>
       </div>
-      <div className="content_block2">
+      <div className="content_block">
         <h1 className="content_header">Education & Certifications</h1>
-        <div className="excerpt_container">
-          <p className="subheader">South Dakota State University</p>
-          <p className="snippet">Early Childhood Education</p>
-          <p className="snippet">Month, Year</p>
-          <img className="school_logo" src={sdsu} />
-        </div>
-        <div className="excerpt_container">
-          <p className="subheader">Dakota State University</p>
-          <p className="snippet">Elementary Certification</p>
-          <p className="snippet">Month, Year</p>
-          <img className="school_logo" src={dsu} />
+        <div className="item_block">
+          <div className="excerpt_container">
+            <p className="subheader">South Dakota State University</p>
+            <p className="snippet">Early Childhood Education</p>
+            <p className="snippet">Month, Year</p>
+            <img className="school_logo" src={sdsu} />
+          </div>
+          <div className="excerpt_container">
+            <p className="subheader">Dakota State University</p>
+            <p className="snippet">Elementary Certification</p>
+            <p className="snippet">Month, Year</p>
+            <img className="school_logo" src={dsu} />
+          </div>
         </div>
       </div>
       <div className="content_block">
         <h1 className="content_header">Career History</h1>
-        <div className="excerpt_container">
-          <p className="subheader">Medary Elementary School</p>
-          <p className="snippet">Brookings, SD</p>
-          <p className="snippet">First Grade Teacher</p>
-          <p className="snippet">Month, Year - Month, Year</p>
-          <img className="school_logo" src={medary} />
-        </div>
-        <div className="excerpt_container">
-          <p className="subheader">Another School</p>
-          <p className="snippet">Sometown, USA</p>
-          <p className="snippet">Someth Grade Some Position</p>
-          <p className="snippet">Month, Year - Month, Year</p>
-          <img className="school_logo" src={medary} />
-        </div>
-        <div className="excerpt_container">
-          <p className="subheader">Another School</p>
-          <p className="snippet">Sometown, USA</p>
-          <p className="snippet">Someth Grade Some Position</p>
-          <p className="snippet">Month, Year - Month, Year</p>
-          <img className="school_logo" src={medary} />
+        <div className="item_block2">
+          <div className="excerpt_container">
+            <p className="subheader">Medary Elementary School</p>
+            <p className="snippet">Brookings, SD</p>
+            <p className="snippet">First Grade Teacher</p>
+            <p className="snippet">Month, Year - Month, Year</p>
+            <img className="school_logo" src={medary} />
+          </div>
+          <div className="excerpt_container">
+            <p className="subheader">Another School</p>
+            <p className="snippet">Sometown, USA</p>
+            <p className="snippet">Someth Grade Some Position</p>
+            <p className="snippet">Month, Year - Month, Year</p>
+            <img className="school_logo" src={medary} />
+          </div>
+          <div className="excerpt_container">
+            <p className="subheader">Another School</p>
+            <p className="snippet">Sometown, USA</p>
+            <p className="snippet">Someth Grade Some Position</p>
+            <p className="snippet">Month, Year - Month, Year</p>
+            <img className="school_logo" src={medary} />
+          </div>
         </div>
       </div>
     </div>
